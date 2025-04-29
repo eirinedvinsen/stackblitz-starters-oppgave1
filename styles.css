@@ -2,7 +2,7 @@
 body {
   /* CSS Declaration */
   /* CSS Rule property:value; */
-  background-color: black;
+  background-color: rgba(0, 0, 0, 0.934);
   color: lightslategray;
 }
 
@@ -27,7 +27,7 @@ header {
   list-style-type: none;
 }
 button {
-  background-color: darkslategrey;
+  background-color: rgba(0, 0, 0, 0.486);
   border: none;
   color: lightgray;
   padding: 10px 15px;
