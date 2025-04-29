@@ -3,19 +3,36 @@ body {
   /* CSS Declaration */
   /* CSS Rule property:value; */
   background-color: black;
+  color: lightslategray;
 }
 
 header { 
   display: flex;
   align-items: center;
-  justify-content: space space-between;
+  justify-content: space-between;
 }
 
 .headerLogo {
   /* Shorthand */
-  border: 4px blueviolet solid
+  border: 4px blueviolet solid;
 
   padding: 10px;
   margin: 10px;
   
+}
+
+.navigationList {
+  display: flex;
+  gap: 10px;
+  list-style-type: none;
+}
+button {
+  background-color: darkslategrey;
+  border: none;
+  color: lightgray;
+  padding: 10px 15px;
+  text-align: center;
+  text-decoration: dotted;
+  display: inline-block;
+  font-size: 16px;
 }
