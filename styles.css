@@ -6,15 +6,22 @@ body {
   color: lightslategray;
 }
 
+img {
+  max-width: 100%;
+}
+
 header { 
   display: flex;
   align-items: center;
   justify-content: space-between;
+ background: url("Camino.jpg") no-repeat center;
+ background-size: cover;
+  
 }
 
 .headerLogo {
   /* Shorthand */
-  border: 4px blueviolet solid;
+  border: 4px lightslategray solid;
 
   padding: 10px;
   margin: 10px;
@@ -22,6 +29,7 @@ header {
   font-weight: 400;
   font-style: normal;
   font-size: 72px;
+  color: lightslategray;
 }
 
 .navigationList {
@@ -38,4 +46,8 @@ button {
   text-decoration: dotted;
   display: inline-block;
   font-size: 16px;
+}
+
+.hero {
+  
 }
