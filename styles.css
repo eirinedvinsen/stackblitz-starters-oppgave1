@@ -1,0 +1,21 @@
+/* CSS Selector */
+body {
+  /* CSS Declaration */
+  /* CSS Rule property:value; */
+  background-color: black;
+}
+
+header { 
+  display: flex;
+  align-items: center;
+  justify-content: space space-between;
+}
+
+.headerLogo {
+  /* Shorthand */
+  border: 4px blueviolet solid
+
+  padding: 10px;
+  margin: 10px;
+  
+}
