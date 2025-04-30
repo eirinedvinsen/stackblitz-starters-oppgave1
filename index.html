@@ -8,6 +8,7 @@
     <meta name="viewport" content="width=device-width" />
     <link rel="stylesheet" href="styles.css" />
     <link href="https://fonts.googleapis.com/css2?family=Rouge+Script&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap" rel="stylesheet">
     <script type="module" src="script.js"></script>
   </head>
   <!-- Body er innhold til nettsiden -->
@@ -27,9 +28,9 @@
     <main>
       <!-- Main innhold: Hoved informasjon delt i seksjon inndelinger -->
       <section class="hero">
-        <h1 id="Home">Hjem</h1>
+        <h1 id="Home">Eirins prosjekter</h1>
       <div class="heroIntro">
-        <img src="" alt="">
+        <img src="Nepe.jpg" alt="Nepe" class="selfPortrait">
         <p>Hei! Mitt navn er Eirin,
           jeg går for tiden på kodeloftet og
           dette er den aller første oppgaven vi har fått på kodeloftet. 
@@ -37,32 +38,34 @@
         <p>Denne siden er lagd for å jobbe med layout og teste ut CSS for å finne ut
           hva som ser bra ut på en nettside. 
         </p>
-        <button>Ta kontakt!</button>
+        <a href="#taKontakt"><button>Ta kontakt!</button></a>
       </div>
       </section>
 
-      <section>
+      <section class="aboutMe">
         <h2 id="OmMeg">Om meg</h2>
-        <p></p>
-        <p></p>
+        <p>Som nevnt før er mitt navn Eirin, jeg er 32 år gammel. Mye av tiden min bruker jeg på mine ulike hobbier, som klatring, gaming, hekling, foto m.m.</p>
+        <p>Alle bildene på denne nettsiden har jeg selv tatt med mitt sony a7II, som er et fantastisk kamera, og all koden på denne nettsiden har jeg skrevet selv,
+          med litt hjelp av W3schools og andre hjelpsomme nettsider.
+        </p>
       </section>
 
-      <section>
+      <section class="projects">
         <!-- prosjekter -->
         <div>
-          <h3 id="Prosjekter">Prosjekter (tba)</h3>
+          <h3 id="Prosjekter">Prosjekter!</h3>
           <img src="Edinburgh.jpg" alt="Edinburgh">
-          <p></p>
+          <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui dolorem molestiae corrupti pariatur, rem natus excepturi omnis eaque, incidunt reiciendis sequi id modi tenetur. Est totam incidunt impedit omnis labore.</p>
         </div>
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <!-- Footer innehold: Kreditasjon, navigasjon, vilkår -->
-      <h3>Laget av Eirin</h3>
+      <h4 id="taKontakt">Laget av Eirin</h4>
       <div>
-        <p></p>
-        <img src="" alt="">
+        <p>Kontaktinfo: fake@mail.com</p>
+        <img src="githublogo.jpg" alt="githublogo" class="gitHub">
       </div>
     </footer>
   </body>

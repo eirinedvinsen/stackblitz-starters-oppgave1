@@ -4,12 +4,13 @@ body {
   /* CSS Rule property:value; */
   background-color: rgba(0, 0, 0, 0.934);
   color: lightslategray;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 
 img {
   max-width: 50%;
   height: auto;
+  border-radius: 8px;
 }
 
 header { 
@@ -18,14 +19,13 @@ header {
   justify-content: space-between;
  background: url("Camino2.jpg") no-repeat center;
  background-size: cover;
-  
 }
 
 .headerLogo {
   /* Shorthand */
-  border: 4px goldenrod solid;
-  padding: 40px ;
-  margin: 40px;
+  border: 8px goldenrod solid;
+  padding: 20px ;
+  margin: 20px;
   background-color: rgb(0, 0, 0, 0.4) ;
   font-family: "Rouge Script", cursive;
   font-weight: 400;
@@ -51,8 +51,50 @@ button {
 }
 
 .hero {
-  
+  display: grid;
+  justify-content: center;
+}
+h1{
+  font-size: 40px;
+  text-align: center;
 }
 .heroIntro {
+  text-align: center;
+}
 
+.aboutMe {
+  text-align: center;
+  padding: 10px;
+}
+
+h2{
+  font-size: 30px;
+}
+
+.selfPortrait{
+  border-radius: 50%;
+  max-width: 25%;
+  height: auto;
+}
+
+.projects{
+  text-align: center;
+  padding: 10;
+}
+h3{
+  font-size: 30px;
+}
+
+.footer {
+  text-align: center;
+  padding: 10px;
+}
+
+h4{
+  font-size: 15px;
+}
+.gitHub{
+  filter: opacity(80%);
+  max-width: 25%;
+  height: auto;
 }
