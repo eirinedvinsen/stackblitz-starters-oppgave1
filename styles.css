@@ -39,13 +39,13 @@ header {
   gap: 10px;
   list-style-type: none;
 }
+
 button {
   background-color: rgba(0, 0, 0, 0.486);
   border: none;
   color: lightgray;
   padding: 10px 15px;
   text-align: center;
-  text-decoration: dotted;
   display: inline-block;
   font-size: 16px;
 }
@@ -54,6 +54,7 @@ button {
   display: grid;
   justify-content: center;
 }
+
 h1{
   font-size: 40px;
   text-align: center;
@@ -81,6 +82,7 @@ h2{
   text-align: center;
   padding: 10;
 }
+
 h3{
   font-size: 30px;
 }
@@ -93,6 +95,7 @@ h3{
 h4{
   font-size: 15px;
 }
+
 .gitHub{
   filter: opacity(80%);
   max-width: 25%;
