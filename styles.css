@@ -19,6 +19,7 @@ header {
   justify-content: space-between;
  background: linear-gradient(to bottom, rgba(0,0,0,0) 10%, rgb(0, 0, 0) 100%),url("Camino2.jpg");
  background-size: cover;
+ background-position: center;
 }
 
 .headerLogo {
