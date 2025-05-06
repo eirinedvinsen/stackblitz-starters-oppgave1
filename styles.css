@@ -50,6 +50,10 @@ button {
   font-size: 16px;
 }
 
+main {
+  padding: 60px;
+}
+
 .hero {
   display: grid;
   justify-content: center;
@@ -65,7 +69,6 @@ h1{
 
 .aboutMe {
   text-align: center;
-  padding: 10px;
 }
 
 h2{
@@ -80,7 +83,6 @@ h2{
 
 .projects{
   text-align: center;
-  padding: 30;
 }
 
 h3{
@@ -89,7 +91,6 @@ h3{
 
 .footer {
   text-align: center;
-  padding: 10px;
 }
 
 h4{
