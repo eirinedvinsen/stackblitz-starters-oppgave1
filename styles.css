@@ -85,6 +85,10 @@ h2{
 .projects{
   text-align: center;
 }
+.projectsRow{
+  display: flex;
+  flex-direction: row;
+}
 
 h3{
   font-size: 30px;
